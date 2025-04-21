@@ -41,5 +41,5 @@ filtered_df=df[df["Country"]== selected_country]
 st.write(f"Top Verkäufe in **{selected_country}**:")
 st.dataframe(filtered_df[['Date', 'Product', 'Total_Revenue', 'Order_Quantity']].head(10))
 
-# 8. Verbindung schließen
+#Verbindung schließen
 conn.close()
